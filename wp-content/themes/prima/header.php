@@ -59,8 +59,8 @@ wp_nav_menu(array('theme_location' => 'top_menu', 'depth' => 2, 'container' => f
 'walker' => new wp_bootstrap_navwalker()));
 ?>
 <form class="navbar-form navbar-right" role="search"><?php get_search_form(); ?></form>
-<a target="_blank" class="navbar-brand custom-brand linked hidden-sm" href="https://www.linkedin.com/company/prima-foods-bulgaria"> <img alt="Brand" width="45" height="45" src="<?php echo get_template_directory_uri (); ?>/images/linkedin.png"></a>
-<a target="_blank" class="navbar-brand custom-brand hidden-sm" href="https://www.facebook.com/primafoodsbg/"> <img alt="Brand" width="50" height="50" src="<?php echo get_template_directory_uri (); ?>/images/fb.png"></a>
+<a target="_blank" class="navbar-brand custom-brand linked hidden-sm hidden-md hidden-xs" href="https://www.linkedin.com/company/prima-foods-bulgaria"> <img alt="Brand" width="45" height="45" src="<?php echo get_template_directory_uri (); ?>/images/linkedin.png"></a>
+<a target="_blank" class="navbar-brand custom-brand hidden-sm hidden-md hidden-xs" href="https://www.facebook.com/primafoodsbg/"> <img alt="Brand" width="50" height="50" src="<?php echo get_template_directory_uri (); ?>/images/fb.png"></a>
         </div>
         <!-- /.navbar-collapse -->
     </nav>

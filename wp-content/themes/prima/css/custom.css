@@ -1,155 +1,163 @@
 body {
-  font-family: calibri;
-  font-size: 17px;
-  padding-top: 120px;
+    font-family: calibri;
+    font-size: 17px;
+    padding-top: 120px;
 }
 .dropdown-menu {
-  padding-top: 0;
-  padding-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .dropdown-menu > li > a {
-  padding: 15px 20px;
+    padding: 15px 20px;
 }
 .navbar-header {
-  background-image: url('../images/prima.png');
-  background-position: 50% 1px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  min-width: 131px;
-  max-height: 65px;
-  border-radius: 4px;
-  height: 65px;
+    background-image: url('../images/prima.png');
+    background-position: 50% 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 131px;
+    max-height: 65px;
+    border-radius: 4px;
+    height: 65px;
 }
 .navbar-default .navbar-brand {
-  height: 100%;
-  width: 70%;
-  min-width: 131px;
+    height: 100%;
+    width: 70%;
+    min-width: 131px;
 }
 .text-blue {
-  color: #045d97;
+    color: #045d97;
 }
 footer {
-  margin-top: 90px;
+    margin-top: 90px;
 }
-#menu-footer-menu {
-  padding: 0;
-  width: 100%;
-  list-style: none;
-  margin-top: 20px;
+.footer-menu {
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
 }
-#menu-footer-menu li {
-  display: inline-block;
-  width: auto;
+.footer-menu li {
+    display: inline-block;
+    width: auto;
 }
 .products {
-  background-position: 37% 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-bottom: 10px;
-  padding: 4px;
+    background-position: 37% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 10px;
+    padding: 4px;
 }
 .products.oven {
-  background-image: url('../images/oven.png');
+    background-image: url('../images/oven.png');
 }
 .products.pan {
-  background-image: url('../images/pan.png');
+    background-image: url('../images/pan.png');
 }
 .products.grill {
-  background-image: url('../images/grill.png');
+    background-image: url('../images/grill.png');
 }
 .products.micro {
-  background-image: url('../images/micro.png');
+    background-image: url('../images/micro.png');
 }
 .prod-img {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 h2 {
-  margin-bottom: 25px;
-  font-family: cursive;
+    margin-bottom: 25px;
+    font-family: cursive;
 }
 .halal {
-  margin: 25px 0;
-  max-height: 225px;
+    margin: 25px 0;
+    max-height: 225px;
 }
 .wp-post-image:hover {
-  -webkit-filter: grayscale(100%);
-  -webkit-transition: 0.5s ease-in-out;
-  -moz-filter: grayscale(100%);
-  -moz-transition: 0.5s ease-in-out;
-  -o-filter: grayscale(100%);
-  -o-transition: 0.5s ease-in-out;
-  filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-filter: grayscale(100%);
+    -moz-transition: 0.5s ease-in-out;
+    -o-filter: grayscale(100%);
+    -o-transition: 0.5s ease-in-out;
+    filter: grayscale(100%);
 }
 .screen-reader-text {
-  display: none;
+    display: none;
 }
 .contact-us-cont {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .alignleft {
-  float: left;
-  margin-right: 10px;
+    float: left;
+    margin-right: 10px;
 }
 .alignright {
-  float: right;
-  margin-left: 10px;
+    float: right;
+    margin-left: 10px;
 }
 .google-maps {
-  position: relative;
-  height: 300px;
-  overflow: hidden;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
 }
 .google-maps iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100% !important;
-  height: 213px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 213px !important;
 }
 .navbar-default .navbar-collapse {
-  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.5);
 }
 .carousel {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .linked {
-  margin-left: 7%;
+    margin-left: 7%;
 }
 @media (max-width: 2000px) and (min-width: 765px) {
-  .navbar-default .custom-brand.linked {
-    padding: 10px 0 10px 0;
-  }
-  .navbar-default .custom-brand {
-    padding: 7px 0 7px 0;
-  }
+    .navbar-default .custom-brand.linked {
+        padding: 10px 0 10px 0;
+    }
+    .navbar-default .custom-brand {
+        padding: 7px 0 7px 0;
+    }
 }
 @media (min-width: 768px) {
-  .navbar-nav > li > a {
-    padding-top: 23px;
-    padding-bottom: 22px;
-  }
-  .navbar-form {
-    padding: 5px 0 5px 0;
-    margin-right: 10px;
-  }
+    .navbar-nav > li > a {
+        padding-top: 23px;
+        padding-bottom: 22px;
+    }
+    .navbar-form {
+        padding: 5px 0 5px 0;
+        margin-right: 10px;
+    }
 }
 @media (min-width: 990px) and (max-width: 1200px) {
-  .halal {
-    height: 135px;
-  }
+    .halal {
+        height: 135px;
+    }
 }
 @media (min-width: 768px) and (max-width: 990px) {
-  .halal {
-    height: 90px;
-  }
-  .products {
-    padding: 0;
-    background-position: 30% 50%;
-  }
+    .halal {
+        height: 90px;
+    }
+    .products {
+        padding: 0;
+        background-position: 30% 50%;
+    }
 }
 .navbar-default .custom-brand {
-  width: auto;
-  height: auto;
-  max-height: initial;
-  min-width: initial;
+    width: auto;
+    height: auto;
+    max-height: initial;
+    min-width: initial;
+}
+
+li.lang-item {
+    display: inline-block; 
+}
+
+li.lang-item a {
+    padding: 0px 5px 0 5px;
 }

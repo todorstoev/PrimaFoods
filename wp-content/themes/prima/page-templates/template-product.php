@@ -48,7 +48,7 @@ while ( have_posts () ) :
 					data-share="true"></div>
 			</div>
 			<div class="col-sm-12">
-				<span class="btn btn-default" onclick="window.history.back();" style="margin-top:5px;">Back</span>
+				<span class="btn btn-default" onclick="window.history.back();" style="margin-top:5px;"><?php pll_e('Back');?></span>
 			</div>
 			<div class="col-md-12">
 				<?php

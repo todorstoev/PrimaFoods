@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <?php if (is_active_sidebar('home_2')) { ?>
-            <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+            <div id="primary-sidebar" class="primary-sidebar widget-area  text-center" role="complementary">
                 <?php dynamic_sidebar('home_2'); ?>
             </div>
             <!-- #primary-sidebar -->
