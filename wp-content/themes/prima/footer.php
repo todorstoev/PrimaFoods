@@ -22,8 +22,9 @@
     </div>
     <div class="container">
         <div class="row">
-            <?php if (has_nav_menu('footer_nav')): ?> <?php 
-wp_nav_menu(array('menu' => 'footer_nav', 'theme_location' => 'footer_nav', 'menu_class' => 'footer-menu', 'container_class' => 'col-xs-12 hidden-xs text-center', 'after' => '|', 'echo' => true));
+            <?php if (has_nav_menu('footer_nav')) :
+?> <?php
+            wp_nav_menu(array('menu' => 'footer_nav', 'theme_location' => 'footer_nav', 'menu_class' => 'footer-menu', 'container_class' => 'col-xs-12 hidden-xs text-center', 'after' => '|', 'echo' => true));
 ?>
 
 
@@ -31,10 +32,10 @@ wp_nav_menu(array('menu' => 'footer_nav', 'theme_location' => 'footer_nav', 'men
             <?php endif; ?>
         </div>
         <div class="row">
-            <?php 
-if (is_active_sidebar('footer')) {
-    dynamic_sidebar('footer');
-}
+            <?php
+            if (is_active_sidebar('footer')) {
+                dynamic_sidebar('footer');
+            }
 
 ?>
 
